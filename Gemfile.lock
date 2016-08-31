@@ -48,8 +48,5 @@ DEPENDENCIES
   jekyll-sitemap (= 0.11.0)
   minima
 
-RUBY VERSION
-   ruby 2.3.0p0
-
 BUNDLED WITH
    1.12.5
