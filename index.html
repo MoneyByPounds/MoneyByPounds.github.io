@@ -3,31 +3,93 @@ layout: default
 title: Homepage
 ---
 
-<div class="home">
+<div class="container">
 
-	<img src="assets/images/tomatoes.jpg" class="img-responsive">
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+      	<img src="assets/images/tomatoes.jpg" class="img-responsive">
+	      <div class="carousel-caption">
+	      	<h3>Aren't you inspired to trust me?</h3>
+	      </div>
+      </div>
+    </div>
+	</div>
 
-	<div id="intro">
+
+	<div id="intro" class="row">
 		<h1>Intro</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit quis velit ut sollicitudin. Cras eget est vitae neque porta pellentesque. Nullam consequat odio eu augue volutpat aliquet. Quisque efficitur consectetur sem id feugiat. Fusce sed purus tortor. Maecenas semper diam consectetur, finibus lectus vel, fringilla est. Sed vehicula sagittis quam sed aliquam. Quisque viverra felis a porttitor tincidunt.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod aliquet sapien, eu pulvinar nunc dignissim non. Nam eget pharetra orci. Aliquam urna enim, faucibus ac tempus et, elementum ac neque.</p>
 	</div>
 
-	<div id="about">
-	<a href="/#about">
+	<div id="about" class="row">
 		<h2>About</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit quis velit ut sollicitudin. Cras eget est vitae neque porta pellentesque. Nullam consequat odio eu augue volutpat aliquet. Quisque efficitur consectetur sem id feugiat. Fusce sed purus tortor. Maecenas semper diam consectetur, finibus lectus vel, fringilla est. Sed vehicula sagittis quam sed aliquam. Quisque viverra felis a porttitor tincidunt.</p>
-		<p>Nullam eget leo ipsum. Proin eget nisl elementum, mattis libero ac, tincidunt ante. Phasellus eu augue ligula. Maecenas sed ullamcorper nunc. Mauris enim urna, aliquam sed venenatis id, iaculis sed turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed bibendum turpis ac sapien feugiat tempus. Morbi a sem sed justo ornare mattis eget at nibh. Nullam sit amet viverra tortor. Duis porta lorem ut mauris commodo, ut mattis ante porta. Integer sed dui id tortor maximus faucibus. Aliquam et tincidunt mi. Maecenas tempus porta condimentum. In gravida egestas tellus sit amet eleifend. Fusce pharetra ac orci luctus consectetur. Morbi imperdiet lorem sit amet commodo venenatis.</p>
-	</a>
+		<div class="col-sm-10">
+			<p>Umami hammock portland flexitarian, health goth pop-up kinfolk stumptown freegan truffaut four loko paleo. Actually microdosing literally everyday carry pabst kombucha. Jean shorts vice skateboard cronut asymmetrical godard, normcore gentrify franzen letterpress slow-carb. +1 trust fund typewriter, irony DIY tousled neutra paleo chillwave four dollar toast. Asymmetrical trust fund literally man braid, deep v green juice kale chips skateboard 90's YOLO affogato meggings crucifix cred. Occupy semiotics sartorial trust fund vinyl. Cornhole chartreuse offal you probably haven't heard of them.</p>
+			<a href="/about"><button>Click this if you maybe wanna learn more about me, I dunno.</button></a>
+		</div>
+		<div class="col-sm-2">
+			<img src="/assets/images/profile.jpg" alt="My beautiful face in a circle">
+		</div>
 	</div>
 
-	<div id="services">
-		<h2>Services</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit quis velit ut sollicitudin. Cras eget est vitae neque porta pellentesque. Nullam consequat odio eu augue volutpat aliquet. Quisque efficitur consectetur sem id feugiat. Fusce sed purus tortor. Maecenas semper diam consectetur, finibus lectus vel, fringilla est. Sed vehicula sagittis quam sed aliquam. Quisque viverra felis a porttitor tincidunt.</p>
+	<div id="highlights" class="row">
+		<h2>Highlights</h2>
+			<div class="container">
+				<div class="col-sm-4 text-center">
+					<img alt="some little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Forage ugh austin, drinking vinegar tattooed tacos VHS keffiyeh chia paleo vegan gentrify messenger bag locavore single-origin coffee.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="second little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Truffaut put a bird on it you probably haven't heard of them fanny pack 90's locavore.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="third little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Chicharrones kombucha art party umami, organic fanny pack raw denim post-ironic single-origin coffee vinyl knausgaard.</p>
+				</div>
+			</div>
 	</div>
 
-	<div id="contact">
+	<div id="highlights" class="row">
+			<div class="container">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="fourth little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Forage ugh austin, drinking vinegar tattooed tacos VHS keffiyeh chia paleo vegan gentrify messenger bag locavore single-origin coffee.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="fifth little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Truffaut put a bird on it you probably haven't heard of them fanny pack 90's locavore.</p>
+				</div>
+				<div class="col-sm-2">
+				</div>
+			</div>
+	</div>
+
+	<div class="row text-center">
+		<a href="/services"><button>So what are you waiting for? Click this button already.</button></a>
+	</div>
+
+	<div id="contact" class="row text-center">
 		<h2>Reach Out</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit quis velit ut sollicitudin. Cras eget est vitae neque porta pellentesque. Nullam consequat odio eu augue volutpat aliquet. Quisque efficitur consectetur sem id feugiat. Fusce sed purus tortor. Maecenas semper diam consectetur, finibus lectus vel, fringilla est. Sed vehicula sagittis quam sed aliquam. Quisque viverra felis a porttitor tincidunt.</p>
+		<div>
+			<form>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name"><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email"><br>
+				<label for="goals">Goals:</label><br>
+				<textarea id="goals">Brief description of your lorem ipsum goals</textarea><br>
+				<input type="submit"><br>
+			</form>
+		</div>
 	</div>
 
 </div>

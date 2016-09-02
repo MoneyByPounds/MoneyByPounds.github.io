@@ -1,9 +1,8 @@
 ---
 ---
 
-@import "header";
-@import "images";
+// include any @import "filename"; here
 
-// * {
-// 	margin-top: 5px;
-// }
+.outline {
+	outline: 1px solid red;
+}
