@@ -9,7 +9,7 @@
 	outline: 1px solid red;
 }
 
-#MBPnavbar {
+#BIZnavbar {
 	margin-top: 5px;
 }
 
@@ -21,3 +21,25 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+.navbar-toggle {
+	background-color: #ddd;
+	padding: 10px 45%;
+	display: block;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+#logo {
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+  	display: none;
+	}
+}
+
