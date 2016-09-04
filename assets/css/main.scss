@@ -3,6 +3,21 @@
 
 // include any @import "filename"; here
 
+// Currently using this file for any needed overrides to Bootstrap
+
 .outline {
 	outline: 1px solid red;
+}
+
+#MBPnavbar {
+	margin-top: 5px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
