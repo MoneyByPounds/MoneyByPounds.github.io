@@ -9,10 +9,6 @@
 	outline: 1px solid red;
 }
 
-#BIZnavbar {
-	margin-top: 5px;
-}
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -25,7 +21,7 @@
 .navbar-toggle {
 	background-color: #ddd;
 	padding: 10px 45%;
-	display: block;
+	display: none;
 	float: none;
 	margin-right: auto;
 	margin-left: auto;
@@ -33,13 +29,26 @@
 }
 
 #logo {
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 1%;
 }
 
-@media (min-width: 768px) {
+body {
+	padding-top: 30%;
+}
+
+@media (max-width: 768px) {
 	.navbar-toggle {
-  	display: none;
+  	display: block;
+	}
+
+	.navbar-nav li {
+    float: left;
+    width: 50%;
+	}
+
+	body {
+		padding-top: 50%;
 	}
 }
 
