@@ -1,23 +1,91 @@
 ---
 layout: default
+title: Homepage
 ---
 
-<div class="home">
+<div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+      	<img src="assets/images/tomatoes.jpg" class="img-responsive">
+	      <div class="carousel-caption">
+	      	<h3>Trust me with your tomatoes</h3>
+	      </div>
+      </div>
+    </div>
+	</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div id="intro" class="row text-center">
+		<h1>Intro</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod aliquet sapien, eu pulvinar nunc dignissim non. Nam eget pharetra orci. Aliquam urna enim, faucibus ac tempus et, elementum ac neque.</p>
+	</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div id="about" class="row text-center">
+		<h2>About</h2>
+		<div class="col-sm-10">
+			<p>Umami hammock portland flexitarian, health goth pop-up kinfolk stumptown freegan truffaut four loko paleo. Actually microdosing literally everyday carry pabst kombucha. Jean shorts vice skateboard cronut asymmetrical godard, normcore gentrify franzen letterpress slow-carb. +1 trust fund typewriter, irony DIY tousled neutra paleo chillwave four dollar toast. Occupy sartorial trust fund vinyl. Cornhole chartreuse offal you probably haven't heard of them.</p>
+			<a href="/about"><button>Click this if you maybe wanna learn more about me, I dunno.</button></a>
+		</div>
+		<div class="col-sm-2">
+			<img src="/assets/images/profile.jpg" alt="My beautiful face in a circle" class="img-circle">
+		</div>
+	</div>
+
+	<div id="highlights" class="row text-center">
+		<h2>Highlights</h2>
+			<div class="container">
+				<div class="col-sm-4 text-center">
+					<img alt="some little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Forage ugh austin, drinking vinegar tattooed tacos VHS keffiyeh chia paleo vegan gentrify messenger bag locavore single-origin coffee.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="second little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Truffaut put a bird on it you probably haven't heard of them fanny pack 90's locavore.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="third little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Chicharrones kombucha art party umami, organic fanny pack raw denim post-ironic single-origin coffee vinyl knausgaard.</p>
+				</div>
+			</div>
+	</div>
+
+	<div id="highlights" class="row">
+			<div class="container">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="fourth little icon">
+					<h5>Here's a neat thing</h3>
+					<p>Forage ugh austin, drinking vinegar tattooed tacos VHS keffiyeh chia paleo vegan gentrify messenger bag locavore single-origin coffee.</p>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img alt="maybe there's enough icons">
+					<h5>Here's a neat thing</h3>
+					<p>Truffaut put a bird on it you probably haven't heard of them fanny pack 90's locavore.</p>
+				</div>
+				<div class="col-sm-2">
+				</div>
+			</div>
+	</div>
+
+	<div class="row text-center">
+		<a href="/services"><button>So what are you waiting for? Click this button already.</button></a>
+	</div>
+
+	<div id="contact" class="row text-center">
+		<h2>Contact</h2>
+		<div>
+			<form method="POST" action="http://formspree.io/EMAILHERE">
+			  <input type="email" name="email" placeholder="Your email"><br>
+			  <textarea name="message" placeholder="Your message"></textarea><br>
+			  <button type="submit">Send</button>
+			</form>
+		</div>
+	</div>
 
 </div>
