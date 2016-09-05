@@ -3,11 +3,9 @@
 
 @import "header";
 @import "footer";
+@import "body";
 
-body {
-	font-size: 1.5em;
-}
-
+// useful tool
 .outline {
 	outline: 1px solid red;
 }
