@@ -5,6 +5,10 @@
 
 // Currently using this file for any needed overrides to Bootstrap
 
+body {
+	font-size: 1.5em;
+}
+
 .outline {
 	outline: 1px solid red;
 }
@@ -26,11 +30,6 @@
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 10px;
-}
-
-#logo {
-	margin-top: 1%;
-	margin-bottom: 1%;
 }
 
 body {
