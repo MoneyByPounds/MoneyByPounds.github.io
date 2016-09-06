@@ -7,11 +7,11 @@ body {
 }
 
 section {
-	min-height: 500px;
+	min-height: 400px;
 }
 
 .vertical-align {
-	outline: 1px solid red;
+
 }
 
 #intro {
@@ -36,4 +36,10 @@ section {
 
 #certifications {
 	background-color: $light;
+}
+
+@media (max-width: 768px) {
+	#home {
+		min-height: 100px;
+	}
 }
