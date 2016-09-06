@@ -4,17 +4,5 @@
 @import "header";
 @import "footer";
 @import "body";
-
-// useful tool
-.outline {
-	outline: 1px solid red;
-}
-
-.highlight {
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-
-ul {
-	list-style-type: none;
-}
+@import "button";
+@import "form";
