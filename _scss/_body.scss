@@ -1,0 +1,39 @@
+$white: #FFFFFF;
+$light: #efefef;
+$medium: #e7e7e7;
+
+body {
+	font-size: 2em;
+}
+
+section {
+	min-height: 500px;
+}
+
+.vertical-align {
+	outline: 1px solid red;
+}
+
+#intro {
+	background-color: $white;
+}
+
+#about {
+	background-color: $light;
+}
+
+#highlights {
+	background-color: $medium;
+}
+
+#services {
+	background-color: $light;
+}
+
+#contact {
+	background-color: $white;
+}
+
+#certifications {
+	background-color: $light;
+}
