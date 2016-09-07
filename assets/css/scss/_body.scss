@@ -7,12 +7,12 @@ body {
 }
 
 section {
-	min-height: 400px;
+	min-height: 300px;
 	padding: 2em;
 }
 
-.vertical-align {
-
+#profile-pic {
+	margin: 20px 0;
 }
 
 #home {
@@ -20,27 +20,27 @@ section {
 }
 
 #intro {
-	background-color: $white;
+	background-color: $light;
 }
 
 #about {
-	background-color: $light;
-}
-
-#highlights {
-	background-color: $medium;
-}
-
-#services {
-	background-color: $light;
-}
-
-#contact {
 	background-color: $white;
 }
 
-#certifications {
+#highlights {
 	background-color: $light;
+}
+
+#services {
+	background-color: $medium;
+}
+
+#contact {
+	background-color: $light;
+}
+
+#certifications {
+	background-color: $white;
 }
 
 @media (max-width: 768px) {
