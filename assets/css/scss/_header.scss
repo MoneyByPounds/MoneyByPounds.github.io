@@ -45,10 +45,15 @@ body {
 @media (max-width: 768px) {
 	#logo {
 		display: block;
+		height: auto;
+		max-width: 280px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.navbar {
 		height: 170px;
+		padding-right: 16px;
 	}
 
 	body {
@@ -61,6 +66,14 @@ body {
 
 	.navbar .navbar-nav {
 		padding-top: 0;
+	}
+
+	.navbar-collapse .collapse {
+	  display: inline-block;
+	}
+
+	.navbar-header {
+  	float: none;
 	}
 
 	.navbar-nav li {
