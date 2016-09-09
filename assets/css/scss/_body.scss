@@ -34,10 +34,18 @@ section {
 
 #highlights {
 	background-color: $light;
+	.col-sm-6 {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 }
 
 #services {
 	background-color: $medium;
+	.col-sm-4 {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 }
 
 #contact {
@@ -46,6 +54,11 @@ section {
 
 #certifications {
 	background-color: $white;
+	img {
+		padding-top: 3em;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 @media (max-width: 768px) {
