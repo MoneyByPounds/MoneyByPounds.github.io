@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+  font-size: 2em;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 300px;
+  padding: 2em;
+}
+
+#profile-pic {
+  margin: 20px 0;
+}
+
+#home {
+  padding: 0;
+}
+
+#about-image {
+  padding: 0;
+}
+
+#intro {
+  background-color: $light;
+}
+
+#about {
+  background-color: $white;
+}
+
+#highlights {
+  background-color: $light;
+  .col-sm-6 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+#services {
+  background-color: $medium;
+  .col-sm-4 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+#contact {
+  background-color: $light;
+}
+
+#certifications {
+  background-color: $white;
+  img {
+    padding-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+    min-height: 100px;
+  }
+}
