@@ -7,19 +7,17 @@
 }
 
 footer {
-  min-padding-left: 5.5em;
   p {
     color: $charcoal;
   }
   ul {
     list-style-type: none;
-    padding-left: 3em;
   }
-  .flex-container {
+  #site-map {
     padding-left: 20%;
   }
-  .more-left-padding {
-    padding-left: 45%;
+  .left-padding {
+    padding-left: 5%;
   }
 }
 
@@ -39,10 +37,10 @@ footer {
     ul {
       padding-left: 0;
     }
-    .flex-container {
+    #site-map {
       padding-left: 0;
     }
-    .more-left-padding {
+    .left-padding {
       padding-left: 0;
     }
   }
