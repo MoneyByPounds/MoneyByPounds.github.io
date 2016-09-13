@@ -6,8 +6,14 @@ body {
 }
 
 section {
-  min-height: 300px;
+  min-height: 5em;
   padding: 2em;
+}
+
+form {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-responsive {
@@ -48,6 +54,18 @@ section {
     padding-top: 2em;
     padding-bottom: 2em;
   }
+}
+
+.panel-header {
+  height: 5em;
+}
+
+.panel-body {
+  min-height: 9em;
+}
+
+.panel-footer {
+  height: 5em;
 }
 
 #contact {
