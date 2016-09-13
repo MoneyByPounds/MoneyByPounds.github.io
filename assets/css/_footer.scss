@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer {
   background-color: white;
   padding-top: 2%;
@@ -19,6 +21,9 @@ footer {
   }
   .left-padding {
     padding-left: 4%;
+  }
+  i {
+    color: $logo-light-blue;
   }
 }
 
