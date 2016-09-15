@@ -1,7 +1,5 @@
 # Money by Pounds
 
----
-
 ## In Progress
 
 * Videos page
