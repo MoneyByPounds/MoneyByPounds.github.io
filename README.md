@@ -2,6 +2,7 @@
 
 ## In Progress
 
-* Videos page
-* Favicons with transparent background
-* Fix nav bar responsiveness with new li element present
+* Videos page (more copy/content?, styling, feedback on JS file)
+* Favicons robust enough?
+* Social Media links
+* Copy throughout site
