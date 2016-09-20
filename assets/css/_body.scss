@@ -22,6 +22,8 @@ form {
 
 #profile-pic {
   margin: 20px 0;
+  height: 15em;
+  width: auto;
 }
 
 #home {
@@ -77,14 +79,16 @@ form {
   img {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 2em;
-    padding-right: 2em;
   }
   #xypn-logo {
     padding-top: 19%;
   }
   #napfa-logo {
     padding-top: 7%;
+  }
+  #fpa-logo {
+    max-height: 7em;
+    width: auto;
   }
 }
 
