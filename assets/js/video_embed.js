@@ -1,12 +1,14 @@
+if (typeof MoneyByPounds === "undefined") {
+  MoneyByPounds = {};
+}
+
 document.addEventListener("DOMContentLoaded",
   function() {
     MoneyByPounds.grabDivs();
   }
 );
 
-
 var MoneyByPounds = {
-
   grabDivs: function() {
     var div, n,
       youtubeDivs = document.getElementsByClassName("youtube-player");
@@ -33,5 +35,4 @@ var MoneyByPounds = {
     iframe.setAttribute("allowfullscreen", "1");
     this.parentNode.replaceChild(iframe, this);
   }
-
 }
