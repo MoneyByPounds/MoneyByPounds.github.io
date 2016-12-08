@@ -64,7 +64,11 @@ form {
 }
 
 .panel-body {
-  min-height: 9em;
+  min-height: 265px;
+}
+
+.panel-heading {
+  min-height: 185px;
 }
 
 .panel-footer {
