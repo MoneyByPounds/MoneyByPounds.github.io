@@ -5,10 +5,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Money by Pounds
-email: rich@rpfinancialplanning.com
+email: rich@moneybypounds.com
 description: Financial planning by Richard Pounds, CFP.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://www.moneybypounds.comm" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
