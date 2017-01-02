@@ -7,7 +7,7 @@
 title: Money by Pounds
 email: rich@moneybypounds.com
 description: Financial planning by Richard Pounds, CFP.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.moneybypounds.comm" # the base hostname & protocol for your site
 logo: /assets/images/logo/Money-By-Pounds-3.png
 image: /assets/images/Richard-2.jpg
