@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.moneybypounds.com/sitemap.xml
