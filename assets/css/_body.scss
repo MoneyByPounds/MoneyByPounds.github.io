@@ -21,6 +21,9 @@ form {
   width: 100%;
 }
 
+.fat-top {
+  margin-top: 2em !important;
+}
 #profile-pic {
   margin: 20px 0;
   height: 15em;
@@ -69,10 +72,6 @@ form {
 
 .panel-heading {
   min-height: 185px;
-}
-
-.panel-footer {
-  height: 5em;
 }
 
 #contact {
